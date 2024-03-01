@@ -1,0 +1,7 @@
+next.js
+typescript
+shadcn
+oxylabs: legal webscraper api (Note to self, require oxylabs subscription to use web scrapping tools)
+
+oxylab terminal query:
+curl 'https://realtime.oxylabs.io/v1/queries' --user 'booking_webscraper:Quinn12345678' -H 'Content-Type: application/json' -d '{"source": "universal", "url": "https://sandbox.oxylabs.io/products/", "geo-location": "United States", "render": "html"}' -v 
